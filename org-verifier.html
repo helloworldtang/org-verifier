@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO 基础 Meta -->
+    <title>机构真伪查询助手 | 社会组织/企业/协会真假查询 - 官方入口汇总</title>
+    <meta name="description" content="免费查询社会组织、企业、协会真伪的官方入口汇总。支持全国社会组织查询、企业信用信息公示、非法社会组织名单核查。3.15防骗必备工具，让骗子无处遁形。">
+    <meta name="keywords" content="社会组织查询,企业查询,协会真假查询,机构真伪查询,非法社会组织,企业信用查询,3.15防骗,民政部查询,国家企业信用信息公示系统">
+    <meta name="author" content="机构真伪查询助手">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / 社交媒体分享 -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="机构真伪查询助手 | 官方查询入口汇总">
+    <meta property="og:description" content="免费查询社会组织、企业、协会真伪。支持全国社会组织查询、企业信用信息公示、非法社会组织名单核查。3.15防骗必备工具。">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/667eea/ffffff?text=机构真伪查询助手">
+    <meta property="og:url" content="https://org-verifier.example.com">
+    <meta property="og:site_name" content="机构真伪查询助手">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="机构真伪查询助手 | 官方查询入口汇总">
+    <meta name="twitter:description" content="免费查询社会组织、企业、协会真伪。3.15防骗必备工具。">
+    <meta name="twitter:image" content="https://via.placeholder.com/1200x630/667eea/ffffff?text=机构真伪查询助手">
+    
+    <!-- 移动端优化 -->
+    <meta name="theme-color" content="#667eea">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="机构查询助手">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23667eea'/%3E%3Ccircle cx='14' cy='14' r='5' stroke='white' stroke-width='1.5' fill='none'/%3E%3Cline x1='18' y1='18' x2='24' y2='24' stroke='white' stroke-width='2' stroke-linecap='round'/%3E%3Cpath d='M9 23L14 28L23 14' stroke='%2310b981' stroke-width='2' stroke-linecap='round' fill='none'/%3E%3C/svg%3E">
+    
+    <!-- canonical 链接 -->
+    <link rel="canonical" href="https://org-verifier.example.com">
+    
+    <!-- 结构化数据 Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "机构真伪查询助手",
+        "description": "免费查询社会组织、企业、协会真伪的官方入口汇总工具",
+        "url": "https://org-verifier.example.com",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://chinanpo.mca.gov.cn/?search={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "查询不到结果，是不是一定是假机构？",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "不一定。可能是：① 名称输入有误（建议输入全称）② 该组织在地方注册，未在民政部登记 ③ 确实未注册。建议多渠道核实。"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "查询需要收费吗？",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "完全免费！所有官方查询平台都不收取任何费用。如果遇到收费查询，一定是诈骗。"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "企业显示经营异常是什么意思？",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "表示该企业未按规定报送年报、无法联系等，处于非正常经营状态。与这类企业合作需谨慎。"
+                }
+            }
+        ]
+    }
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            color: white;
+            padding: 30px 20px 40px;
+        }
+        
+        .site-logo {
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+            padding: 0;
+            margin-bottom: 20px;
+            line-height: 80px;
+        }
+        
+        .site-logo svg {
+            vertical-align: middle;
+        }
+        
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+        
+        .warning-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        
+        .warning-box h3 {
+            color: #856404;
+            margin-bottom: 8px;
+            font-size: 1rem;
+        }
+        
+        .warning-box ul {
+            color: #856404;
+            padding-left: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .warning-box li {
+            margin: 5px 0;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        
+        .card h2 {
+            color: #333;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .card h2 .icon {
+            font-size: 1.5rem;
+        }
+        
+        .query-item {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 15px;
+            border: 1px solid #e9ecef;
+            transition: all 0.3s ease;
+        }
+        
+        .query-item:hover {
+            border-color: #667eea;
+            box-shadow: 0 2px 10px rgba(102, 126, 234, 0.1);
+        }
+        
+        .query-item h3 {
+            color: #333;
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+        
+        .query-item p {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+        
+        .btn-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+        }
+        
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #5a67d8;
+            transform: translateY(-1px);
+        }
+        
+        .btn-secondary {
+            background: #e9ecef;
+            color: #495057;
+        }
+        
+        .btn-secondary:hover {
+            background: #dee2e6;
+        }
+        
+        .tips-section {
+            background: #e7f3ff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 15px;
+        }
+        
+        .tips-section h4 {
+            color: #0066cc;
+            margin-bottom: 12px;
+            font-size: 1rem;
+        }
+        
+        .tips-section ol {
+            padding-left: 20px;
+            color: #333;
+        }
+        
+        .tips-section li {
+            margin: 8px 0;
+            line-height: 1.6;
+        }
+        
+        .danger-section {
+            background: #fff5f5;
+            border: 1px solid #feb2b2;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 15px;
+        }
+        
+        .danger-section h4 {
+            color: #c53030;
+            margin-bottom: 12px;
+            font-size: 1rem;
+        }
+        
+        .danger-section ul {
+            padding-left: 20px;
+            color: #742a2a;
+        }
+        
+        .danger-section li {
+            margin: 8px 0;
+            line-height: 1.6;
+        }
+        
+        .report-section {
+            background: #f0fff4;
+            border: 1px solid #9ae6b4;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 15px;
+        }
+        
+        .report-section h4 {
+            color: #22543d;
+            margin-bottom: 12px;
+            font-size: 1rem;
+        }
+        
+        .report-section p {
+            color: #276749;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        
+        footer {
+            text-align: center;
+            color: white;
+            padding: 30px 20px;
+            opacity: 0.8;
+            font-size: 0.85rem;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-left: 8px;
+        }
+        
+        .badge-hot {
+            background: #fed7d7;
+            color: #c53030;
+        }
+        
+        .badge-new {
+            background: #c6f6d5;
+            color: #22543d;
+        }
+        
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+            
+            .card {
+                padding: 15px;
+            }
+            
+            .btn-group {
+                flex-direction: column;
+            }
+            
+            .btn {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 跳过导航链接（无障碍） -->
+    <a href="#main-content" class="skip-link" style="position: absolute; left: -9999px;">跳转到主要内容</a>
+    
+    <div class="container">
+        <header>
+            <!-- Logo -->
+            <div class="site-logo">
+                <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+                    <!-- 盾牌轮廓 -->
+                    <path d="M60 10L15 30V60C15 85 35 105 60 115C85 105 105 85 105 60V30L60 10Z" 
+                          fill="#667eea" stroke="#5a67d8" stroke-width="3"/>
+                    <!-- 盾牌内部 -->
+                    <path d="M60 20L25 36V60C25 80 40 95 60 103C80 95 95 80 95 60V36L60 20Z" 
+                          fill="white"/>
+                    <!-- 放大镜 -->
+                    <circle cx="52" cy="52" r="18" stroke="#667eea" stroke-width="5" fill="none"/>
+                    <line x1="65" y1="65" x2="85" y2="85" stroke="#667eea" stroke-width="6" stroke-linecap="round"/>
+                    <!-- 勾选标记 -->
+                    <path d="M45 75L55 85L80 55" stroke="#10b981" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                </svg>
+            </div>
+            <h1>🔍 机构真伪查询助手</h1>
+            <p>官方查询入口汇总 · 让骗子无处遁形</p>
+        </header>
+        
+        <!-- 面包屑导航（SEO） -->
+        <nav aria-label="breadcrumb" style="display: none;">
+            <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <span itemprop="name">首页</span>
+                    <meta itemprop="position" content="1">
+                </li>
+            </ol>
+        </nav>
+        
+        <main id="main-content">
+        <div class="warning-box">
+            <h3>⚠️ 重要提示</h3>
+            <ul>
+                <li>所有查询均链接到<strong>官方网站</strong>，请放心使用</li>
+                <li>遇到自称"官方"但要求转账、提供验证码的，一定是诈骗</li>
+                <li>正规机构查询<strong>完全免费</strong>，不会收取任何费用</li>
+            </ul>
+        </div>
+        
+        <article class="card" itemscope itemtype="https://schema.org/ItemList">
+            <h2 itemprop="name"><span class="icon">🏢</span> 社会组织查询</h2>
+            
+            <div class="query-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <meta itemprop="position" content="1">
+                <h3 itemprop="name">全国社会组织查询 <span class="badge badge-hot">最常用</span></h3>
+                <p itemprop="description">查询社会团体、民办非企业单位、基金会等是否在民政部正规注册</p>
+                <div class="btn-group">
+                    <a href="https://chinanpo.mca.gov.cn/" target="_blank" rel="noopener noreferrer nofollow" class="btn btn-primary" itemprop="url">🔍 立即查询</a>
+                    <button class="btn btn-secondary" onclick="showGuide('social')">📖 操作指南</button>
+                </div>
+            </div>
+            
+            <div class="query-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <meta itemprop="position" content="2">
+                <h3 itemprop="name">涉嫌非法社会组织名单</h3>
+                <p itemprop="description">民政部公布的涉嫌非法社会组织名单，避免上当受骗</p>
+                <div class="btn-group">
+                    <a href="https://www.creditchina.gov.cn/xinxigongshi/ffshzzgs/" target="_blank" rel="noopener noreferrer nofollow" class="btn btn-primary" itemprop="url">🔍 查看名单</a>
+                </div>
+            </div>
+            
+            <div class="query-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <meta itemprop="position" content="3">
+                <h3 itemprop="name">行业协会商会收费公示</h3>
+                <p itemprop="description">查询行业协会、商会的收费项目和标准是否合规</p>
+                <div class="btn-group">
+                    <a href="https://www.creditchina.gov.cn/xinxigongshi/hangyexiehuishanghui/" target="_blank" rel="noopener noreferrer nofollow" class="btn btn-primary" itemprop="url">🔍 查询收费</a>
+                </div>
+            </div>
+        </article>
+        
+        <article class="card" itemscope itemtype="https://schema.org/ItemList">
+            <h2 itemprop="name"><span class="icon">🏭</span> 企业/机构查询</h2>
+
+            <div class="query-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <meta itemprop="position" content="4">
+                <h3 itemprop="name">国家企业信用信息公示系统 <span class="badge badge-hot">最权威</span></h3>
+                <p itemprop="description">查询企业注册信息、经营状态、行政处罚、年报等官方信息</p>
+                <div class="btn-group">
+                    <a href="https://www.gsxt.gov.cn/" target="_blank" rel="noopener noreferrer nofollow" class="btn btn-primary" itemprop="url">🔍 立即查询</a>
+                    <button class="btn btn-secondary" onclick="showGuide('enterprise')">📖 操作指南</button>
+                </div>
+            </div>
+
+            <div class="query-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <meta itemprop="position" content="5">
+                <h3 itemprop="name">信用中国 - 企业信用查询</h3>
+                <p itemprop="description">查询企业信用状况、失信记录、行政许可等信息</p>
+                <div class="btn-group">
+                    <a href="https://www.creditchina.gov.cn/" target="_blank" rel="noopener noreferrer nofollow" class="btn btn-primary" itemprop="url">🔍 立即查询</a>
+                </div>
+            </div>
+
+            <div class="query-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <meta itemprop="position" content="6">
+                <h3 itemprop="name">高频失信企业名单</h3>
+                <p itemprop="description">查看被多次处罚、屡教不改的失信企业</p>
+                <div class="btn-group">
+                    <a href="https://www.creditchina.gov.cn/xinxigongshi/ljbzlcbgzl/" target="_blank" rel="noopener noreferrer nofollow" class="btn btn-primary" itemprop="url">🔍 查看名单</a>
+                </div>
+            </div>
+        </article>
+        
+        <article class="card" itemscope itemtype="https://schema.org/ItemList">
+            <h2 itemprop="name"><span class="icon">🏥</span> 特定行业查询</h2>
+
+            <div class="query-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <meta itemprop="position" content="7">
+                <h3 itemprop="name">全国医疗卫生机构查询</h3>
+                <p itemprop="description">查询医院、诊所等医疗机构是否正规备案</p>
+                <div class="btn-group">
+                    <a href="https://www.creditchina.gov.cn/xinxigongshi/yllwsjgcx/" target="_blank" rel="noopener noreferrer nofollow" class="btn btn-primary" itemprop="url">🔍 查询医疗机构</a>
+                </div>
+            </div>
+
+            <div class="query-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <meta itemprop="position" content="8">
+                <h3 itemprop="name">养老服务机构备案查询</h3>
+                <p itemprop="description">查询养老院、养老服务机构是否已备案</p>
+                <div class="btn-group">
+                    <a href="https://www.creditchina.gov.cn/xinxigongshi/ybaylfwjg/" target="_blank" rel="noopener noreferrer nofollow" class="btn btn-primary" itemprop="url">🔍 查询养老机构</a>
+                </div>
+            </div>
+
+            <div class="query-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <meta itemprop="position" content="9">
+                <h3 itemprop="name">家政服务机构查询</h3>
+                <p itemprop="description">查询家政公司信用状况，包括问题企业和受奖励企业</p>
+                <div class="btn-group">
+                    <a href="https://www.creditchina.gov.cn/xinxigongshi/jzxxgs/" target="_blank" rel="noopener noreferrer nofollow" class="btn btn-primary" itemprop="url">🔍 查询家政机构</a>
+                </div>
+            </div>
+        </article>
+        
+        <article class="card">
+            <h2><span class="icon">📚</span> 查询操作指南</h2>
+
+            <div id="guide-social" class="tips-section">
+                <h4>📖 社会组织查询步骤</h4>
+                <ol>
+                    <li>点击"立即查询"进入全国社会组织查询页面</li>
+                    <li>在搜索框输入<strong>社会组织全称</strong>（如：中国消费者协会）</li>
+                    <li>点击"搜索"按钮</li>
+                    <li>查看查询结果：
+                        <ul style="margin-top: 8px; color: #666;">
+                            <li>✅ 有结果 → 正规注册的社会组织</li>
+                            <li>❌ 无结果 → 可能未注册或名称有误，建议核实</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+
+            <div id="guide-enterprise" class="tips-section" style="display: none;">
+                <h4>📖 企业信息查询步骤</h4>
+                <ol>
+                    <li>点击"立即查询"进入国家企业信用信息公示系统</li>
+                    <li>在首页搜索框输入<strong>企业名称</strong>或<strong>统一社会信用代码</strong></li>
+                    <li>输入验证码（区分大小写）</li>
+                    <li>点击"查询"按钮</li>
+                    <li>查看企业详情，重点关注：
+                        <ul style="margin-top: 8px; color: #666;">
+                            <li>登记状态：是否"存续"</li>
+                            <li>是否有经营异常记录</li>
+                            <li>是否有行政处罚</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </article>
+        
+        <article class="card">
+            <h2><span class="icon">⚠️</span> 防骗识别指南</h2>
+
+            <div class="danger-section">
+                <h4>🚨 这些特征可能是骗子</h4>
+                <ul>
+                    <li><strong>名称相似</strong>：如"中国XX协会" vs "中华XX协会"，一字之差可能是李鬼</li>
+                    <li><strong>无法查询</strong>：在官方平台查不到该组织的注册信息</li>
+                    <li><strong>收费发证</strong>：以颁发证书、奖牌为由收取高额费用</li>
+                    <li><strong>冒充官方</strong>：自称"国家XX部门授权"但无法提供证明</li>
+                    <li><strong>评奖诈骗</strong>：主动来电称"您被评为XX优秀企业"，要求付费领奖</li>
+                    <li><strong>会议诈骗</strong>：邀请参加"高端论坛"，实则推销产品或服务</li>
+                </ul>
+            </div>
+
+            <div class="report-section">
+                <h4>📢 发现骗子怎么办？</h4>
+                <p><strong>1. 保留证据</strong>：截图、录音、保存聊天记录和转账凭证</p>
+                <p><strong>2. 官方举报</strong>：</p>
+                <ul style="padding-left: 20px; color: #276749; margin: 10px 0;">
+                    <li>社会组织投诉举报：<a href="https://tsjb.chinanpo.mca.gov.cn/chinanpo/" target="_blank" rel="noopener noreferrer nofollow" style="color: #22543d; text-decoration: underline;">民政部投诉平台</a></li>
+                    <li>消费者投诉：拨打 12315</li>
+                    <li>网络诈骗：拨打 110 或登录 <a href="https://www.12321.cn/" target="_blank" rel="noopener noreferrer nofollow" style="color: #22543d; text-decoration: underline;">网络不良信息举报中心</a></li>
+                </ul>
+                <p><strong>3. 提醒他人</strong>：在社交平台分享经历，避免更多人受骗</p>
+            </div>
+        </article>
+        
+        <article class="card">
+            <h2><span class="icon">❓</span> 常见问题</h2>
+
+            <div class="query-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h3 itemprop="name">Q: 查询不到结果，是不是一定是假机构？</h3>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">A: 不一定。可能是：① 名称输入有误（建议输入全称）② 该组织在地方注册，未在民政部登记 ③ 确实未注册。建议多渠道核实。</p>
+                </div>
+            </div>
+
+            <div class="query-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h3 itemprop="name">Q: 查询需要收费吗？</h3>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">A: <strong>完全免费！</strong>所有官方查询平台都不收取任何费用。如果遇到收费查询，一定是诈骗。</p>
+                </div>
+            </div>
+
+            <div class="query-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h3 itemprop="name">Q: 企业显示"经营异常"是什么意思？</h3>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">A: 表示该企业未按规定报送年报、无法联系等，处于非正常经营状态。与这类企业合作需谨慎。</p>
+                </div>
+            </div>
+
+            <div class="query-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h3 itemprop="name">Q: 协会给我发证书，怎么判断真假？</h3>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">A: ① 先查询该协会是否在民政部注册 ② 联系协会官方电话核实（不要拨打证书上的电话）③ 正规证书不会收取高额费用</p>
+                </div>
+            </div>
+        </article>
+        
+        </main>
+        
+        <footer>
+            <p>本工具仅提供官方查询入口汇总，所有数据以官方网站为准</p>
+            <p>建议收藏本页面，方便随时查询 | 分享给亲友，共同防骗</p>
+            <p style="margin-top: 10px;">© 2026 机构真伪查询助手</p>
+            <nav aria-label="相关链接" style="margin-top: 15px;">
+                <a href="https://chinanpo.mca.gov.cn/" rel="nofollow" style="color: rgba(255,255,255,0.7); margin: 0 10px;">全国社会组织查询</a>
+                <a href="https://www.gsxt.gov.cn/" rel="nofollow" style="color: rgba(255,255,255,0.7); margin: 0 10px;">企业信用信息公示</a>
+                <a href="https://www.creditchina.gov.cn/" rel="nofollow" style="color: rgba(255,255,255,0.7); margin: 0 10px;">信用中国</a>
+            </nav>
+        </footer>
+    </div>
+    
+    <script>
+        function showGuide(type) {
+            // 隐藏所有指南
+            document.getElementById('guide-social').style.display = 'none';
+            document.getElementById('guide-enterprise').style.display = 'none';
+            
+            // 显示对应指南
+            if (type === 'social') {
+                document.getElementById('guide-social').style.display = 'block';
+                document.getElementById('guide-social').scrollIntoView({ behavior: 'smooth' });
+            } else if (type === 'enterprise') {
+                document.getElementById('guide-enterprise').style.display = 'block';
+                document.getElementById('guide-enterprise').scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+        
+        // 页面加载时默认显示社会组织指南
+        window.onload = function() {
+            document.getElementById('guide-social').style.display = 'block';
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo - 机构真伪查询助手</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+        }
+        
+        .logo-container {
+            text-align: center;
+        }
+        
+        /* 主 Logo */
+        .logo {
+            width: 200px;
+            height: 200px;
+            background: white;
+            border-radius: 40px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            margin-bottom: 30px;
+        }
+        
+        .logo svg {
+            width: 120px;
+            height: 120px;
+        }
+        
+        /* Logo 文字 */
+        .logo-text {
+            color: white;
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        
+        .logo-subtitle {
+            color: rgba(255,255,255,0.8);
+            font-size: 16px;
+        }
+        
+        /* 变体版本 */
+        .variants {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+        
+        .variant {
+            background: white;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .variant h3 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+        
+        .variant-box {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+        
+        .variant-box svg {
+            width: 50px;
+            height: 50px;
+        }
+        
+        .white-bg {
+            background: white !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-container">
+        <!-- 主 Logo -->
+        <div class="logo">
+            <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- 盾牌轮廓 -->
+                <path d="M60 10L15 30V60C15 85 35 105 60 115C85 105 105 85 105 60V30L60 10Z" 
+                      fill="#667eea" stroke="#5a67d8" stroke-width="3"/>
+                <!-- 盾牌内部 -->
+                <path d="M60 20L25 36V60C25 80 40 95 60 103C80 95 95 80 95 60V36L60 20Z" 
+                      fill="white"/>
+                <!-- 放大镜 -->
+                <circle cx="52" cy="52" r="18" stroke="#667eea" stroke-width="5" fill="none"/>
+                <line x1="65" y1="65" x2="85" y2="85" stroke="#667eea" stroke-width="6" stroke-linecap="round"/>
+                <!-- 勾选标记 -->
+                <path d="M45 75L55 85L80 55" stroke="#10b981" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            </svg>
+        </div>
+        
+        <div class="logo-text">机构真伪查询助手</div>
+        <div class="logo-subtitle">官方查询入口汇总</div>
+        
+        <!-- 变体版本 -->
+        <div class="variants">
+            <div class="variant">
+                <h3>深色背景</h3>
+                <div class="variant-box">
+                    <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M40 5L5 18V40C5 58 20 72 40 78C60 72 75 58 75 40V18L40 5Z" 
+                              fill="white"/>
+                        <circle cx="35" cy="35" r="12" stroke="#667eea" stroke-width="3" fill="none"/>
+                        <line x1="44" y1="44" x2="58" y2="58" stroke="#667eea" stroke-width="4" stroke-linecap="round"/>
+                        <path d="M30 52L37 59L55 38" stroke="#10b981" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    </svg>
+                </div>
+            </div>
+            
+            <div class="variant">
+                <h3>白色背景</h3>
+                <div class="variant-box white-bg">
+                    <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M40 5L5 18V40C5 58 20 72 40 78C60 72 75 58 75 40V18L40 5Z" 
+                              fill="#667eea"/>
+                        <circle cx="35" cy="35" r="12" stroke="white" stroke-width="3" fill="none"/>
+                        <line x1="44" y1="44" x2="58" y2="58" stroke="white" stroke-width="4" stroke-linecap="round"/>
+                        <path d="M30 52L37 59L55 38" stroke="#10b981" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    </svg>
+                </div>
+            </div>
+            
+            <div class="variant">
+                <h3>简约图标</h3>
+                <div class="variant-box">
+                    <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="40" cy="40" r="32" fill="#667eea"/>
+                        <circle cx="40" cy="36" r="14" stroke="white" stroke-width="4" fill="none"/>
+                        <line x1="50" y1="46" x2="62" y2="58" stroke="white" stroke-width="5" stroke-linecap="round"/>
+                        <path d="M28 60L40 72L56 50" stroke="#10b981" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
