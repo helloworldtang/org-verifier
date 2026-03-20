@@ -39,6 +39,7 @@
 
 **🔗 https://helloworldtang.github.io/org-verifier/org-verifier.html**
 
+
 ## 📱 特性
 
 - ✅ 完全免费 - 所有官方查询入口
@@ -53,9 +54,7 @@
 org-verifier/
 ├── org-verifier.html    # 主页面
 ├── sitemap.xml          # 站点地图
-├── robots.txt           # 爬虫规则
-└── .github/workflows/
-    └── deploy.yml       # 自动部署
+└── robots.txt           # 爬虫规则
 ```
 
 ## 🤝 贡献
@@ -71,3 +70,9 @@ MIT License
 - 本工具仅提供官方查询入口汇总
 - 所有数据以各官方网站为准
 - 使用过程中产生的问题与本工具无关
+
+##  技术交流
+![qrcode_for_gh_898cde472685_258](https://github.com/user-attachments/assets/08ae8268-f2a6-4a30-837a-e8ae637e46d0)
+
+
+
